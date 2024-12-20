@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #1D1C1C;
+}
+
+
+header {
+
+	height: 80px;
+	clear: both;
+	overflow: hidden;
+
+}
+
+.white-bg {
+	background: #fff;
+	padding-top: 13px;
+}
+
+.top-bg {
+	background: url(../img/top-bg.png) center top no-repeat;
+	position: relative;
+	height: 625px;
+	background-size: cover;
+}
+
+.book-demo-class {
+	border-radius: 40px;
+	background: #39F2AA;
+	border: 0;
+	width: 223px;
+	height: 54px;
+	margin-left: 20px;
+}
+
+.book-demo-class a {
+	font-size: 16px;
+	color: #1D1C1C !important;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+	line-height: 25px;
+}
+
+h1.h1-title {
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 70px;
+	text-align: left;
+	color: #fff;
+}
+
+
+h1.h1-title span {
+	color: #FFE600;
+}
+
+.form-box {
+	border-radius: 10px;
+	background: #fff;
+	/*padding: 40px 25px;*/
+	padding: 25px 25px 40px 25px;
+}
+
+.form-box .form-control,
+.form-box select {
+	border: 1px solid #CDC7C7;
+	height: 40px;
+	border-radius: 40px;
+	text-align: left;
+	color: #1D1C1C;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	background: #fff;
+}
+
+.form-box button.submit-btn {
+	border-radius: 40px;
+	background: #39F2AA;
+	border: 0;
+	/*width: 223px;*/
+	width:100%;
+	height: 54px;
+	font-size: 1.2rem;
+}
+
+.nav-link {
+	display: block;
+	padding: .9rem 1rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: .9rem;
+	padding-left: .9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #1D1C1C;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #39F2AA
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	color: #005aa5
+}
+
+.why-made-easy-prime,
+.our-achievers,
+.other-courses-offer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+h2.title-h2 {
+	color: #1D1C1C;
+	text-align: center;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 36px;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+
+.shadow-box {
+	background: #FFFFFF;
+	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.09);
+	border-radius: 12px;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+
+.shadow-box img {
+	width: 193px;
+	height: 193px;
+}
+
+.shadow-box h3.h3-title {
+	color: #1D1C1C;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 15px 0;
+
+}
+
+.shadow-box p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #4C5768;
+}
+
+.attend-free-demo .inner-box {
+	background: #F1F1F1;
+}
+
+.attend-free-demo h4.title-h4 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.04em;
+
+	color: #1D1C1C;
+}
+
+a.book-free-demo {
+	width: 223px;
+	height: 54px;
+	background: #39F2AA;
+	border-radius: 40px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 54px;
+
+	color: #1D1C1C;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.success-stories {
+	background: url(../img/success-stories.svg) center top no-repeat;
+	height: auto;
+	width: 100%;
+	padding: 50px 0;
+	position: relative;
+	background-size: cover
+}
+
+.success-stories .white-clr {
+	color: #fff;
+}
+
+.client-name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1D1C1C;
+}
+
+.year {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4C5768;
+}
+
+.client-info {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #1D1C1C;
+	margin-bottom: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+a.read-more {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #34B697;
+}
+
+
+.pos-rel {
+	position: relative;
+}
+
+.pos-abs {
+	position: absolute;
+	top: 70px;
+	left: 250px;
+	padding-right: 20px;
+}
+
+.inner-green-box {
+	padding: 25px;
+	border: 1px solid #34B697;
+	border-bottom: 7px solid #34B697;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.inner-green-box .box-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	color: #60BDAC;
+}
+
+.inner-green-box p {
+	margin-bottom: 0;
+	color: #4C5768;
+}
+.btn-shadow{
+	box-shadow: 0 10px 10px -5px;
+}
+
+.talk-to-our-team {
+	background: #F1FFFB;
+	padding: 50px 0;
+}
+
+.talk-to-our-team .got-more {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.04em;
+	color: #031E49;
+	padding-bottom: 12px;
+}
+
+.talk-to-our-team h4.title-h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 33px;
+	line-height: 28px;
+	color: #4C5768;
+	padding-bottom: 12px;
+	margin-bottom: 0
+}
+
+.talk-to-our-team p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.04em;
+	color: #031E49;
+}
+
+
+.multipal-stories {
+	background: #F1F1F1;
+	padding: 50px 0;
+}
+
+
+ul.course-list{
+	margin: 0;
+	padding: 0;
+}
+
+ul.course-list li{
+	list-style-type: none;
+	background: url(../img/tick-mark.svg) left top no-repeat;
+	padding-left: 45px;
+padding-bottom: 20px;
+}
+
+ul.course-list li{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #60BDAC;
+}
+
+footer {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: left;
+	color: #1D1C1C;
+}
+
+footer .footer-bg{
+	background: url(../img/footer-bg.svg) center top no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: left;
+	color: #1D1C1C;
+}
+
+footer a {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: #1D1C1C;
+}
+
+footer a:hover {
+	color: #005aa5;
+	text-decoration: none;
+}
+
+footer .txt-right {
+	text-align: right;
+}
+
+footer h4{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+footer ul.footer-links{
+	margin:0;
+	padding: 0 0 0 15px;
+}
+
+footer ul.footer-links li{
+	color: #fff;
+	list-style-type: disc;
+}
+
+footer ul.footer-links li a{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 34px;
+	color: #fff;
+}
+
+footer p, footer a.wht-clr{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height:26px;
+	color: #FFFFFF;
+}
+
+/* media query */
+@media(max-width:992px) {
+	.header-bottom{
+		padding-bottom:2px !important;
+	}
+	.top-bg {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		height: auto;
+	}
+
+	.white-bg {
+		padding-bottom: 30px;
+	}
+
+	h1.h1-title {
+		margin-bottom: 15px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	h2.title-h2 {
+		font-size: 24px;
+		line-height: 26px;
+		padding-bottom: 20px;
+	}
+
+	.talk-to-our-team h4.title-h4 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.talk-to-our-team br {
+		display: none;
+	}
+
+	.why-made-easy-prime,
+	.our-achievers,
+	.other-courses-offer {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.book-demo-class {
+		margin-left: 0px;
+	}
+
+	.py-mob {
+		padding: 30px 20px;
+	}
+
+	.talk-to-our-team {
+		background: #F1FFFB;
+		padding: 30px 0;
+	}
+
+	.multipal-stories {
+		background: #F1F1F1;
+		padding: 30px 0;
+	}
+
+	iframe {
+		margin-bottom: 10px;
+	}
+
+	.pos-abs {
+		position: absolute;
+		top: 40px;
+		left: 160px;
+		padding-right: 20px;
+	}
+
+	.client-name {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.client-info {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+	}
+
+	footer {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	footer .txt-right {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	footer a {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.mob-space{
+		/*padding-top: 15px;*/
+		margin-top: 1rem;
+	}
+
+	.mt-mob{
+		margin-top: 10px;
+        display: inline-block;
+	}
+	.shadow-box {
+		background: #FFFFFF;
+		box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.09);
+		border-radius: 12px;
+		padding: 20px;
+		margin-bottom: 25px;
+		max-height: max-content;
+		
+	}
+	.card-box{
+		width:50%!important;
+		display: flex;
+		justify-content: center;
+	}
+	.shadow-box img {
+		width: 140px;
+		/*height: 193px;*/
+		height: 140px;
+	}
+	.book-free-demo {
+		/*width: 223px;*/
+		height: 54px;
+		background: #39F2AA;
+		border-radius: 40px;
+		cursor: pointer;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 54px;
+	
+		color: #1D1C1C;
+		/*display: inline-block;*/
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		vertical-align: middle;
+		text-decoration: none;
+	}
+	.footer-phn{
+		display: flex;
+		flex-direction: row!important;
+		
+	}
+	
+
+}
+/*style for tablets*/
+@media screen and (min-device-width: 468px) and (max-device-width: 1024px){
+	.shadow-box {
+		background: #FFFFFF;
+		box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.09);
+		border-radius: 12px;
+		padding: 20px;
+		margin-bottom: 25px;
+		max-height: max-content;
+		
+		
+	}
+	.card-gap{
+		gap: 6px!important;
+	}
+	.card-box{
+		width:50%!important;
+		display: flex;
+		justify-content: center;
+		gap: 50px!important;
+	}
+	.shadow-box img {
+		width: 120px;
+		height: 193px;
+		height: 140px;
+	}
+}
